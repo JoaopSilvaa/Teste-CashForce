@@ -81,6 +81,14 @@ module.exports = {
         defaultValue: null,
         type: Sequelize.STRING,
       },
+      account: {
+        defaultValue: null,
+        type: Sequelize.STRING,
+      },
+      documents: {
+        defaultValue: null,
+        type: Sequelize.STRING,
+      },
       phoneNumber: {
         defaultValue: null,
         type: Sequelize.STRING,
