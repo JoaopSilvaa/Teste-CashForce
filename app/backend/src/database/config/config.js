@@ -18,7 +18,6 @@ const options = {
   dialectOptions: {
     timezone: 'Z',
   },
-  logging: process.env.DEBUG !== 'false',
 };
 
 module.exports = {

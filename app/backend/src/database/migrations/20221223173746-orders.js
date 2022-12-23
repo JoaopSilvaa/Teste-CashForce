@@ -117,6 +117,10 @@ module.exports = {
         defaultValue: null,
         type: Sequelize.STRING,
       },
+      deliveryCtrc: {
+        defaultValue: null,
+        type: Sequelize.STRING,
+      },
     });
   },
 

@@ -105,7 +105,7 @@ const Provider = (sequelize, DataTypes) => {
     });
     
     Provider.associate = (models) => {
-        Provider.belognsTo(models.Cnpj,
+        Provider.belongsTo(models.Cnpj,
             { foreignKey: 'cnpjId', as: 'cpnj' })
     };
 

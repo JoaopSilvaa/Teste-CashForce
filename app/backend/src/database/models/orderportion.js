@@ -19,7 +19,7 @@ const OrderPortion = (sequelize, DataTypes) => {
     });
     
     OrderPortion.associate = (models) => {
-        OrderPortion.belognsTo(models.Cnpj,
+        OrderPortion.belongsTo(models.Cnpj,
             { foreignKey: 'orderId', as: 'order' })
     };
 

@@ -10,7 +10,7 @@ const Offer = (sequelize, DataTypes) => {
         adValorem: DataTypes.STRING,
         float: DataTypes.STRING,
         iof: DataTypes.STRING,
-        expiresIn: DataTypes.DATETIME,
+        expiresIn: DataTypes.DATE,
         paymentStatusSponsor: {
             defaultValue: 0,
             type: DataTypes.TINYINT,
@@ -30,9 +30,9 @@ const Offer = (sequelize, DataTypes) => {
     });
     
     Offer.associate = (models) => {
-        Offer.belognsTo(models.Cnpj,
+        Offer.belongsTo(models.Cnpj,
             { foreignKey: 'orderId', as: 'order' }),
-        Offer.belognsTo(models.User,
+        Offer.belongsTo(models.User,
             { foreignKey: 'sponsorId', as: 'sponsor' })
     };
 
