@@ -41,6 +41,14 @@ module.exports = {
         defaultValue: 0,
         type: Sequelize.TINYINT,
       },
+      createdAt: {
+        allowNull: false,
+        type: Sequelize.DATE
+      },
+      updatedAt: {
+        allowNull: false,
+        type: Sequelize.DATE
+      },
       orderId: {
         type: Sequelize.INTEGER,
         defaultValue: null,
