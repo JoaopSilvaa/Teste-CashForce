@@ -76,9 +76,6 @@ const Order = (sequelize, DataTypes) => {
             defaultValue: null,
             type: DataTypes.STRING,
         },
-    },
-    {
-        timestamps: true,
     });
     
     Order.associate = (models) => {

@@ -7,9 +7,6 @@ const Cnpj = (sequelize, DataTypes) => {
         },
         cnpj: DataTypes.STRING,
         companyType: DataTypes.STRING,
-    },
-    {
-        timestamps: true,
     });
   
     return Cnpj;

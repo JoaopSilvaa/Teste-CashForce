@@ -16,9 +16,6 @@ const OrderPortion = (sequelize, DataTypes) => {
             defaultValue: null,
             type: DataTypes.STRING,
         },
-    },
-    {
-        timestamps: true,
     });
     
     OrderPortion.associate = (models) => {

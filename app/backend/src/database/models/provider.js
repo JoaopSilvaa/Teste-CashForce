@@ -102,9 +102,6 @@ const Provider = (sequelize, DataTypes) => {
             defaultValue: null,
             type: DataTypes.STRING,
         },
-    },
-    {
-        timestamps: true,
     });
     
     Provider.associate = (models) => {

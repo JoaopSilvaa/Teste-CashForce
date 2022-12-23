@@ -21,15 +21,12 @@ const Offer = (sequelize, DataTypes) => {
         },
         orderId: {
             defaultValue: null,
-            type: DataTypes.STRING,
+            type: DataTypes.INTEGER,
         },
         sponsorId: {
             defaultValue: null,
-            type: DataTypes.STRING,
+            type: DataTypes.INTEGER,
         },
-    },
-    {
-        timestamps: true,
     });
     
     Offer.associate = (models) => {

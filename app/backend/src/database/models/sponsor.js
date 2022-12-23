@@ -98,9 +98,6 @@ const Sponsor = (sequelize, DataTypes) => {
             defaultValue: null,
             type: DataTypes.STRING,
         },
-    },
-    {
-        timestamps: true,
     });
     
     Sponsor.associate = (models) => {

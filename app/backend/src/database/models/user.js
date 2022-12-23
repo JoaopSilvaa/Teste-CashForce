@@ -31,9 +31,6 @@ const User = (sequelize, DataTypes) => {
             defaultValue: 0,
             type: DataTypes.TINYINT,
         }
-    },
-    {
-        timestamps: true,
     });
   
     return User;

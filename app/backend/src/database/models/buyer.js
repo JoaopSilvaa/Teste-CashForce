@@ -90,9 +90,6 @@ const Buyer = (sequelize, DataTypes) => {
             defaultValue: null,
             type: DataTypes.STRING,
         },
-    },
-    {
-        timestamps: true,
     });
     
     Buyer.associate = (models) => {

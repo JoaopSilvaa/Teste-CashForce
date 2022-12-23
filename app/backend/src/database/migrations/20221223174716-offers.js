@@ -31,7 +31,7 @@ module.exports = {
       },
       expiresIn: {
         allowNull: false,
-        type: Sequelize.DATETIME,
+        type: Sequelize.DATE,
       },
       paymentStatusSponsor: {
         defaultValue: 0,
