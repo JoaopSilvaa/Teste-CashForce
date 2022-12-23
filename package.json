@@ -1,0 +1,20 @@
+{
+  "name": "teste-cashforce",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "compose:up": "(cd app && docker-compose up -d --build)",
+    "compose:down": "(cd app && docker-compose down --remove-orphans)",
+    "logs": "cd app && docker-compose logs -f"
+  },
+  "devDependencies": {
+    "axios": "^0.26.0",
+    "dotenv": "10.0.0",
+    "jest": "26.6.0",
+    "mocha": "9.2.0",
+    "mysql2": "2.3.3",
+    "nyc": "15.1.0",
+    "sequelize": "^6.11.0",
+    "sequelize-cli": "^6.4.1"
+  }
+}
