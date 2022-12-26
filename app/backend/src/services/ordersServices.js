@@ -55,8 +55,8 @@ const verifyAlreadyExist = async (orderNfId) => {
 };
 
 const validyOrders = (orderStatusBuyer, orderStatusProvider) => {
-    if (Number(orderStatusBuyer) > 8 || Number(orderStatusBuyer) < 1
-        || Number(orderStatusProvider) > 8 || Number(orderStatusProvider) < 1) {
+    if (Number(orderStatusBuyer) > 8 || Number(orderStatusBuyer) < 0
+        || Number(orderStatusProvider) > 8 || Number(orderStatusProvider) < 0) {
         return {
             error: {
                 code: 'badRequest',
