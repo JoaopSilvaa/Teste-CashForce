@@ -1,6 +1,6 @@
 const { Order, Buyer, Provider } = require('../database/models');
 
-const getOrders = async () => {
+const readAllOrders = async () => {
     const orders = await Order.findAll({
         include: [
             { model: Buyer, as: 'buyer', attributes: { exclude: 'createdAt, updateAt' } },
@@ -19,5 +19,5 @@ const getOrders = async () => {
 };
 
 module.exports = {
-    getOrders,
+    readAllOrders,
 };

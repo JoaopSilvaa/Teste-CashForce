@@ -1,6 +1,6 @@
 const { Provider } = require('../database/models');
 
-const getProvider = async (id) => {
+const readProviderById = async (id) => {
     const provider = await Provider.findByPk(id);
     
     if (!provider) {
@@ -15,5 +15,5 @@ const getProvider = async (id) => {
 };
 
 module.exports = {
-    getProvider,
+    readProviderById,
 };

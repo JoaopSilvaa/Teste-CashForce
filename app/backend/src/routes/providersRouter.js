@@ -1,8 +1,8 @@
 const express = require('express');
 
 const Router = express.Router();
-const { getProviderByIdController } = require('../controllers/getProviderById');
+const { readById } = require('../controllers/providersControllers');
 
-Router.get('/:id', (req, res, next) => getProviderByIdController(req, res, next));
+Router.get('/:id', (req, res, next) => readById(req, res, next));
 
 module.exports = Router;

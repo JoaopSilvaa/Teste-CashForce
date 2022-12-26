@@ -1,8 +1,8 @@
 const express = require('express');
 
 const Router = express.Router();
-const { getOrdersController } = require('../controllers/getOrders');
+const { readAll } = require('../controllers/ordersControllers');
 
-Router.get('/', (req, res, next) => getOrdersController(req, res, next));
+Router.get('/', (req, res, next) => readAll(req, res, next));
 
 module.exports = Router;
