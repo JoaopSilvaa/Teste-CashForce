@@ -1,7 +1,13 @@
 const express = require('express');
 
 const Router = express.Router();
-const { readAll, create, readById, update, remove } = require('../controllers/ordersControllers');
+const {
+    readAll,
+    create,
+    readById,
+    update,
+    remove,
+} = require('../controllers/ordersControllers');
 
 Router.get('/', (req, res, next) => readAll(req, res, next));
 Router.get('/:id', (req, res, next) => readById(req, res, next));

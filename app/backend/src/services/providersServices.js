@@ -74,11 +74,11 @@ const updateProvider = async (provider, id) => {
         };
     }
 
-    const { name, tradingname, cashforceTax, responsibleName } = provider;
+    const { name, tradingName, cashforceTax, responsibleName } = provider;
 
     await Provider.update({
             name,
-            tradingname,
+            tradingName,
             cashforceTax,
             responsibleName,
         },
