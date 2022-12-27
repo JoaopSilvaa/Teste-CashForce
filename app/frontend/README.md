@@ -1,24 +1,17 @@
-# frontend
+# Boas vindas ao Frontend do Teste Cash-Force!
 
-## Project setup
-```
-npm install
-```
+## Técnologias usadas
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+Front-end:
+> Desenvolvido usando: Vue.js, HTML, CSS e Javascript.
 
-### Compiles and minifies for production
-```
-npm run build
-```
+<strong> 👀 Comandos úteis </strong><br />
 
-### Lints and fixes files
-```
-npm run lint
-```
+- Você pode instalar as dependências particulares do Frontend utilizando o comando `npm install` na pasta raiz do frontend;
+- Você pode **buildar a aplicação**, utilizando `npm run build`;
+- Utilizando o comando `npm run serve` você dá start apenas no frontend, mas se você não startar o backend, não terá a comunicação necessária para utilizar bem a aplicação.
+- Após startar a aplicação com o comando citado acima, é necessário você acessar no seu browser o endereço `http://localhost:8080/` para utilizá-lo 
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+
+Projeto Desenvolvido por [João Antônio](https://github.com/JoaopSilvaa)
+
