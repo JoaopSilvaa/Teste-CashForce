@@ -3,7 +3,7 @@
 ## Técnologias usadas
 
 Front-end:
-> Desenvolvido usando: Vue.js, HTML, CSS e Javascript.
+> Desenvolvido usando: Vue.js, HTML, CSS e Javascript, Docker.
 
 <strong> 👀 Comandos úteis </strong><br />
 
