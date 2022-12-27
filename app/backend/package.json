@@ -15,10 +15,10 @@
   "main": "src/server.js",
   "scripts": {
     "prestart": "npx sequelize-cli db:create && npx sequelize-cli db:migrate && npx sequelize-cli db:seed:all",
-    "start": "node .",
+    "start": "npm run drop && npm run prestart && node .",
     "drop": "npx sequelize-cli db:drop",
     "start:test": "API_PORT=3030 NODE_ENV=test npm start",
-    "test": "npx -y wait-on -t 30000 http://localhost:3030 && NODE_ENV=test jest -i --verbose --forceExit",
+    "test": "npm run start:test && npx -y wait-on -t 30000 http://localhost:3030 && NODE_ENV=test jest -i --verbose --forceExit",
     "debug": "nodemon .",
     "lint": "eslint --no-inline-config --no-error-on-unmatched-pattern -c .eslintrc.json ."
   },
