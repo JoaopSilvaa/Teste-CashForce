@@ -12,6 +12,8 @@ Back-end:
 - Utilizando o comando `npm start` você pode criar o banco de dados, executando migrations e seeders, populando seu banco de dados e subindo a API para utilização.
 - Execuntando o comando `npm run debug` você executa a aplicação com o **nodemon** podendo fazer alterações na api e continuar a execução do mesmo.
 
+⚠️ Para utilizar a API sem execução do Docker (localmente) é necessário configurar o .env.example e ter instalado e configurado o MySQL em sua máquina 
+
 <strong> Endpoints acessíveis</strong><br />
 ## Orders GET `/orders`
 
