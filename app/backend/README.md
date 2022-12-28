@@ -3,7 +3,7 @@
 ## Técnologias usadas
 
 Back-end:
-> Desenvolvido usando: Javascript, API Restful, Sequelize, MySQL, Node.Js, Docker
+> Desenvolvido usando: Javascript, API Restful, Sequelize, MySQL, Node.Js, Docker.
 
 <strong> 👀 Comandos úteis </strong><br />
 
