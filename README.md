@@ -119,7 +119,7 @@ Na sua máquina você deve ter:
     ⚠️ Garanta que você tenha instalado um servidor MySQL em seu computador;
     - Acesse a pasta `Teste-CashForce/app/backend/`;
     - Instale as dependências com `npm install`
-    - Configure o as variáveis de ambiente alterando o arqquivo .env.example para .env e alterando os dados destro do arquivo
+    - Configure o as variáveis de ambiente alterando o arquivo .env.example para .env e alterando os dados destro do arquivo
     - Execute `npm start` para criar o banco de dados e subir a API;
     - Abra outro terminal e acesse a pasta `Teste-CashForce/app/frontend`;
     - Instale as dependências com `npm install` e execute `npm run serve` para criar subir a aplicação frontend;
