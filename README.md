@@ -92,15 +92,18 @@ Na sua máquina você deve ter:
 
   1. Clone o repositório
 - Utilize o comando: `git clone git@github.com:JoaopSilvaa/Teste-CashForce.git`<br />
-2. Crie uma nova branch a partir da main
+2. Acesse a pasta do projeto
+- Acesse a pasta Teste-CashForce com `cd Teste-CashForce`;<br />
+3. Crie uma nova branch a partir da main
  - Verifique se você está na branch `main`
    * Exemplo: `git branch`
  - Se não estiver, mude para a branch `main`
-   * Exemplo: `git checkout main` <br />
-3. Instale as dependências gerais do projeto 
-- Acesse a pasta Teste-CashForce com `cd Teste-CashForce`;
+   * Exemplo: `git checkout main`
+ - Crie a branch
+    * Exemplo: `git checkout -b joaozinho-teste-cashforce`<br />
+4. Instale as dependências gerais do projeto 
 - Execute o comando `npm install` na pasta raíz do projeto;<br />
-4. Suba a aplicação 
+5. Suba a aplicação 
  
    <details>
    <summary><strong> 🐳 Com Container Docker-Compose </strong></summary><br />
