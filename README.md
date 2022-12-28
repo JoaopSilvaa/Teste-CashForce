@@ -41,26 +41,38 @@ Para executar o projeto corretamente, atente-se a cada passo descrito a seguir.
 <summary><strong> 👨‍💻 Informações Importantes </strong></summary><br />
 
   1. Clone o repositório
-    * 
-  2. **Instale as dependências gerais do projeto**
-    * Acesse a pasta Teste-CashForce;
-    * Execute o comando `npm install` na pasta raíz do projeto;
-  3. Suba a aplicação
-    <details>
-    <summary><strong> 🐳 Com Container Docker-Compose </strong></summary><br />
+- Utilize o comando: `git clone git@github.com:JoaopSilvaa/Teste-CashForce.git`
+  2. Crie uma nova branch a partir da main
+- Verifique se você está na branch `main`
+  * Exemplo: `git branch`
+- Se não estiver, mude para a branch `main`
+  * Exemplo: `git checkout main`
+  3. **Instale as dependências gerais do projeto**
+- Acesse a pasta Teste-CashForce com `cd Teste-CashForce`;
+- Execute o comando `npm install` na pasta raíz do projeto;
+  4. Suba a aplicação
+<details>
+<summary><strong> 🐳 Com Container Docker-Compose </strong></summary><br />
 
-    * Execute o comando `npm run compose:up` na pasta raíz do projeto;
-    * Aguarde que todos os containers estejam saudáveis e acesse em seu browser o endereço: `http://localhost:3000`;
-    </details>
-    <details>
-    <summary><strong> Sem Container Docker-Compose </strong></summary><br />
-    * Garanta que você tenha instalado um servidor MySQL em seu computador;
-    * Acesse a pasta `Teste-CashForce/app/backend/`;
-    * Instale as dependências com `npm install` e execute `npm start` para criar o banco de dados e subir a API;
-    * Abra um outro terminal e acesse a pasta `Teste-CashForce/app/frontend`;
-    * Instale as dependências com `npm install` e execute `npm run serve` para criar subir a aplicação frontend;
-    * Acesse em seu browser o endereço: `http://localhost:8080`;
-    </details>
+ - Execute o comando `npm run compose:up` na pasta raíz do projeto;
+ - Aguarde que todos os containers estejam saudáveis e acesse em seu browser o endereço: `http://localhost:3000`;
+ 
+</details>
+    
+<details>
+<summary><strong> Sem Container Docker-Compose </strong></summary><br />
+
+ - Garanta que você tenha instalado um servidor MySQL em seu computador;
+ - Acesse a pasta `Teste-CashForce/app/backend/`;
+ - Instale as dependências com `npm install`
+ - Configure o as variáveis de ambiente alterando o arqquivo .env.example para .env e alterando os dados destro do arquivo
+ - Execute `npm start` para criar o banco de dados e subir a API;
+ - Abra outro terminal e acesse a pasta `Teste-CashForce/app/frontend`;
+ - Instale as dependências com `npm install` e execute `npm run serve` para criar subir a aplicação frontend;
+ - Acesse em seu browser o endereço: `http://localhost:8080`;
+
+</details>
+
 <details>
 <summary><strong> Estrutura do projeto</strong></summary><br />
 
