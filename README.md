@@ -31,7 +31,7 @@ Na sua máquina você deve ter:
 
 ➡️ O`docker-compose` deve ter versão igual ou superior à`ˆ1.29.2`:
   * Use esse [link de referência para realizar a instalação corretamente no ubuntu](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-compose-on-ubuntu-20-04-pt) ou a [documentação oficial](https://docs.docker.com/compose/install/);
-  * Acesse o [link da documentação oficial com passos para desinstalar] (https://docs.docker.com/compose/install/uninstall/) caso necessário.
+  * Acesse o [link da documentação oficial com passos para desinstalar](https://docs.docker.com/compose/install/uninstall/) caso necessário.
 
 </details>
 
